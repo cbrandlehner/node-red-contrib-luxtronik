@@ -1,0 +1,36 @@
+<script type="text/javascript">
+    RED.nodes.registerType('luxtronik',{
+        category: 'IoT',
+        color: '#a6bbcf',
+        defaults: {
+            name: {value:""},
+            ip: {value:"192.168.1.100"},
+            port: {value:"8888"}
+        },
+        inputs:1,
+        outputs:1,
+        icon: "file.png",
+        label: function() {
+            return this.name||"luxtronik";
+        }
+    });
+</script>
+
+<script type="text/x-red" data-template-name="luxtronik">
+    <div class="form-row">
+        <label for="node-input-name"><i class="icon-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+    <div class="form-row">
+        <label for="node-input-ip"><i class="icon-tag"></i> IP</label>
+        <input type="text" id="node-input-ip" placeholder="IP">
+    </div>
+    <div class="form-row">
+        <label for="node-input-port"><i class="icon-tag"></i> Port</label>
+        <input type="text" id="node-input-port" placeholder="Port">
+    </div>
+</script>
+
+<script type="text/x-red" data-help-name="luxtronik">
+    <p>A sophisticated node that retrieves values from a Luxtronik heat pump controller.</p>
+</script>
