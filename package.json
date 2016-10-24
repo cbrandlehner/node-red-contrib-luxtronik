@@ -1,15 +1,20 @@
 {
     "name"         : "node-red-contrib-luxtronik",
-    "version"      : "1.0.1",
+    "version"      : "1.0.2",
     "description"  : "Make node-red read data from a Luxtronik heatpump controller",
-    "dependencies": {
-        "net": "*"
-    },
     "keywords": [ "node-red", "luxtronik" ],
     "license": "MIT",
     "node-red"     : {
+        "version": ">=0.14.0",
         "nodes": {
             "luxtronik": "luxtronik.js"
         }
+    },
+    "dependencies": {
+        "net": "*"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cbrandlehner/homebridge-luxtronik2.git"
     }
 }
