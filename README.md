@@ -1,4 +1,4 @@
-#Status
+# Status
 This project is sunset. Users are advised to use this project instead:  https://github.com/coolchip/node-red-contrib-luxtronik2/
 
 node-red-contrib-luxtronik
@@ -7,13 +7,13 @@ node-red-contrib-luxtronik
 Node-Red (http://nodered.org) node for communicating with a Luxtronik heatpump controller. 
 
 
-#Install
+# Install
 
 Run the following command after you have done a global install of Node-RED
 
 	sudo npm install -g node-red-contrib-luxtronik
 
-#Usage
+# Usage
 
 The luxtronik node will appear in the "IoT" catagory on the Node-Red pallet. Drag and drop it onto the canvas and configure as you would any other node-red module. 
 
@@ -21,7 +21,7 @@ The luxtronik node allows you to set the IP-Address and Port of you heatpump con
 
 Warning: Do not expose the ethernet connection of your luxtronik to the internet. The Linux system is not being updated by Alpha-Innotec and the root account has a default password.
 
-#Disclaimer
+# Disclaimer
 
 Use this node at your own risk.
 
