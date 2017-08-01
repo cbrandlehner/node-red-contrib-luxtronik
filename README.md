@@ -1,3 +1,6 @@
+#Status
+This project is sunset. Users are advised to use this project instead:  https://github.com/coolchip/node-red-contrib-luxtronik2/
+
 node-red-contrib-luxtronik
 ==========================
 
